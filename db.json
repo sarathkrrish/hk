@@ -1,11 +1,14 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
+  "user": {
+    "authenticate": {
+      "otp": {
+        "code": 200,
+        "status": "success",
+        "data": {
+          "userId": "1",
+          "otpSent": true
+        }
+      }
     }
-  ],
-  "profile": {
-    "name": "typicode"
   }
 }
