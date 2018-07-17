@@ -1,7 +1,5 @@
 {
-  "user": {
-    "authenticate": {
-      "otp": {
+  "userAuthenticateOtp": {
         "code": 200,
         "status": "success",
         "data": {
@@ -9,6 +7,4 @@
           "otpSent": true
         }
       }
-    }
-  }
 }
